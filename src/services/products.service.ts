@@ -1,4 +1,4 @@
-import { NewProduct, Product } from '../interfaces/product';
+import { NewProduct, Product } from '../interfaces/products';
 import ProductsModel from '../models/products.model';
 
 const createProduct = async (product: NewProduct): Promise<Product> => {
